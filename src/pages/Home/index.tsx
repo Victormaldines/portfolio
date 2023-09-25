@@ -1,5 +1,5 @@
 import { HomeSection, HomeContainer } from './styled';
-import { CodeSvg } from '../../utils/images/global/codeSvg';
+import { CodeSvg } from '../../../public/static/images/global/codeSvg';
 
 export const Home = () => {
   return (

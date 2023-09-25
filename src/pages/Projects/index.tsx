@@ -10,7 +10,7 @@ export const Projects = () => {
           className="project-preview"
         >
           <span className="project-name emphasis">Kekw's Pizza</span>
-          <img alt="preview" src="src/utils/images/projects/kekwspizza.jpg" />
+          <img alt="preview" src="/static/images/projects/kekwspizza.jpg" />
         </a>
         <span className="project-description description">
           Projeto de estudo para gerenciar uma pizzaria. Sistema é capaz de
@@ -23,7 +23,7 @@ export const Projects = () => {
       <Project>
         <span className="project-preview">
           <span className="project-name emphasis">Em breve</span>
-          <img alt="preview" src="src/utils/images/projects/coming+soon.jpg" />
+          <img alt="preview" src="/static/images/projects/coming+soon.jpg" />
         </span>
         <span className="project-description description">...</span>
       </Project>

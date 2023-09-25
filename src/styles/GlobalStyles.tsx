@@ -16,7 +16,7 @@ export default createGlobalStyle`
   body {
     font-family: sans-serif;
     color: ${colors.WHITE_COLOR};
-    background-image: url('/src/utils/images/global/gargantua-blackhole.jpeg');
+    background-image: url('/static/images/global/gargantua-blackhole.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

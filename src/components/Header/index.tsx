@@ -21,7 +21,7 @@ export const Header = () => {
     <Nav>
       <Link to="/home">
         <Logo>
-          <img src="/src/utils/images/global/logox-white.svg" alt="Logo" />
+          <img src="/static/images/global/logox-white.svg" alt="Logo" />
         </Logo>
       </Link>
       <ul>
