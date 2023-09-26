@@ -9,16 +9,18 @@ export const AboutMe = () => {
       <AboutMeSection className="about-me-description">
         <span className="emphasis">Sobre mim</span>
         <span className="description">
-          Id esse qui ipsum est aute elit dolore culpa sit deserunt qui.
-          Cupidatat laborum sunt ea proident dolore eu excepteur aliquip cillum
-          dolore aliquip aliqua. Laboris labore cillum mollit consectetur elit
-          mollit deserunt amet anim aute. Consequat consequat aute dolor est
-          cillum ipsum enim velit consectetur incididunt voluptate laborum ut.
-          Laboris irure ullamco et exercitation cupidatat consequat esse. Sit
-          proident eiusmod adipisicing id deserunt.Qui exercitation excepteur
-          cupidatat culpa. Incididunt amet eu nulla ipsum et laborum ipsum ex id
-          pariatur irure quis et. Adipisicing cupidatat consectetur tempor
-          fugiat proident nisi nostrud occaecat.
+          Meu nome é Victor, tenho 21 anos, adoro broa de erva-doce e sou
+          formado em Análise e Desenvolvimento de Sistemas. Desde novo sempre
+          fui apaixonado por tecnologia, sempre quis fazer algo da vida que
+          fosse relacionado a área de T.I.. Comecei realmente a aprofundar meus
+          conhecimentos na área de programação após o término do ensino médio,
+          com o começo da graduação devido a uma bolsa integral obtida através
+          do Enem. Hoje estou focando nas tecnologias aplicadas ao
+          desenvolvimento web, estudei desde conceitos de front-end com HTML,
+          CSS, Javascript e React quanto conceitos back-end como lógica de
+          programação, estrutura de dados, modelagem de dados, POO, Php, NodeJS
+          e outros. Criei esse site com objetivo principal de começar a criar
+          projetos pessoais e expô-los na aba projetos. Fique à vontade :)
         </span>
       </AboutMeSection>
       <AboutMeSection className="about-me-social-links">

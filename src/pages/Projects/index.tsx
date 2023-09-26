@@ -9,15 +9,28 @@ export const Projects = () => {
           target="_blank"
           className="project-preview"
         >
-          <span className="project-name emphasis">Kekw's Pizza</span>
+          <span className="project-name emphasis">laPizza</span>
           <img alt="preview" src="/static/images/projects/kekwspizza.jpg" />
         </a>
-        <span className="project-description description">
-          Projeto de estudo para gerenciar uma pizzaria. Sistema é capaz de
-          gerenciar usuários (clientes e administradores), pedidos e produtos em
-          um sistema CRUD. API baseada em <em>NodeJS</em> utilizando o{' '}
-          <em>Sequelize</em> para consumir um banco de dados Postgres. Front-end
-          feito em <em>React</em> e back-end em <em>NodeJS</em>.
+        <span className="project-description">
+          <span className="description">
+            Projeto de estudo para gerenciar uma pizzaria. Sistema é capaz de
+            gerenciar usuários (clientes e administradores), pedidos e produtos
+            em um sistema CRUD. O projeto hospedado precisou ter algumas
+            tecnologias alteradas a fim de obter uma hospedagem com o menor
+            custo possível, todas tecnologias originais estão disponíveis no
+            repositório disponibilizado logo abaixo.
+          </span>
+          <span className="technologies">
+            <span className="technology">React</span>
+            <span className="technology">NodeJS</span>
+            <span className="technology">Mariadb</span>
+          </span>
+          <span className="repository">
+            <a href="https://github.com/Victormaldines/laPizza" target="_blank">
+              Ir para o repositório
+            </a>
+          </span>
         </span>
       </Project>
       <Project>

@@ -1,17 +1,18 @@
 import { useState, useEffect } from 'react';
 import { Nav, Logo } from './styled';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, Path, useLocation } from 'react-router-dom';
 
 export const Header = () => {
-  const [currentPage, setCurrentPage] = useState();
+  const [currentPage, setCurrentPage] = useState('home');
   const location = useLocation();
 
   useEffect(() => {
-    const currentRoute = getRootRouteName(location);
+    let currentRoute = getRootRouteName(location);
+    currentRoute = currentRoute || 'home';
     setCurrentPage(currentRoute);
   }, [location]);
 
-  function getRootRouteName(location: any) {
+  function getRootRouteName(location: Path): string {
     const routeStart = location.pathname.indexOf('/') + 1;
     const routeEnd = location.pathname.length;
     return location.pathname.slice(routeStart, routeEnd);
