@@ -30,6 +30,12 @@ export const AboutMeSection = styled(Section)`
     width: 50vw;
     line-height: 1.5em;
   }
+
+  h1 {
+    font-size: 1em;
+    font-style: italic;
+    letter-spacing: 1px;
+  }
 `;
 
 export const Button = styled.span`

@@ -7,10 +7,9 @@ export const HomeContainer = styled(Container)`
 
   &.grid-template {
     grid-template:
-      "homePresentation homeImage" 1fr
-      "homeDescription homeDescription" 1fr
-      / 1fr 1fr
-    ;
+      'homePresentation homeImage' 1fr
+      'homeDescription homeDescription' 1fr
+      / 1fr 1fr;
   }
 
   .home-presentation {
@@ -24,11 +23,9 @@ export const HomeContainer = styled(Container)`
   .home-description {
     grid-area: homeDescription;
   }
-
 `;
 
 export const HomeSection = styled(Section)`
-
   &.home-presentation,
   &.home-description {
     line-height: 1.5em;
@@ -39,6 +36,11 @@ export const HomeSection = styled(Section)`
     font-size: 2.5vw;
     font-weight: bold;
     font-style: italic;
+
+    h1 {
+      text-align: center;
+      font-size: 1em;
+    }
   }
 
   &.home-image svg {

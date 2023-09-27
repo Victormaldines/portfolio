@@ -4,10 +4,22 @@ import { Container } from '../../styles/GlobalStyles';
 import * as colors from '../../config/colors';
 
 export const ProjectsContainer = styled(Container)`
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  h1 {
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-style: italic;
+    line-height: 5em;
+  }
+
+  div.projects {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 `;
 
 export const Project = styled.section`
@@ -27,7 +39,8 @@ export const Project = styled.section`
     cursor: pointer;
   }
 
-  span.project-name {
+  h2.project-name {
+    font-size: 1em;
     padding: 5px 30px;
   }
 
@@ -35,7 +48,7 @@ export const Project = styled.section`
     padding: 15px 25px;
   }
 
-  span.project-name {
+  h2.project-name {
     color: ${colors.WHITE_COLOR};
     background-color: rgba(30, 30, 30, 0.8);
     border-radius: 0 0 5px 5px;
